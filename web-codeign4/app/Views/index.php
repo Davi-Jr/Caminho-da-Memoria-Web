@@ -53,10 +53,10 @@
           Conheça as funcionalidades do sistema de gerenciamento. Navegue e
           descubra o que temos para oferecer!
         </div>
-        <div class="button">
-          <div class="primary" onclick="openModal()">
-            <button class="title4" >Ler Mais</button>
-          </div>
+        <div class="button" onclick="openModal()">
+          <button class="button" >
+            <h3 class="title4" >Ler Mais</h3>
+          </button>
     </div>
         <!-- Modal -->
       <div id="myModal" class="modal">
@@ -169,7 +169,7 @@
     <!-- Conteúdo textual -->
     <div class="container3">
         <a href="mailto:contato@gerenciamentodecuidados.com" role="link">
-            <div class="title8" role="heading" aria-level="2">Email: contato@gerenciamentodecuidados.com</div>
+            <div class="title8" role="heading" aria-level="2">contato@gerenciamentodecuidados.com</div>
         </a>
         <div class="title9">
             © 2024 Caminho da Memória 
@@ -177,6 +177,36 @@
         <!-- Link Política de Privacidade -->
         <div class="title21">
             <a href="#" onclick="openModalPoliticaPrivacidade(event)">Política de Privacidade</a>
+        </div>
+         <!-- Modal Política de Privacidade -->
+         <div id="modalPoliticaPrivacidade" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeModalPoliticaPrivacidade()">&times;</span>
+            <h2>Política de Privacidade</h2>
+            <p>
+              A Caminho da Memória é comprometida em proteger a privacidade e a segurança dos dados dos nossos usuários. Esta política de privacidade descreve como coletamos, usamos e protegemos as informações pessoais dos nossos usuários.
+            </p>
+            <h3>Coleta de Dados</h3>
+            <p>
+              Coletamos informações pessoais dos nossos usuários quando eles se registram no nosso site ou aplicativo, incluindo nome, e-mail e senha. Também coletamos informações sobre o uso do nosso site e aplicativo, incluindo dados de navegação e interações com o conteúdo.
+            </p>
+            <h3>Uso de Dados</h3>
+            <p>
+              Usamos as informações coletadas para fornecer e melhorar os nossos serviços, incluindo a personalização do conteúdo e a comunicação com os nossos usuários. Também usamos as informações para fins de marketing e publicidade.
+            </p>
+            <h3>Proteção de Dados</h3>
+            <p>
+              Tomamos medidas para proteger as informações pessoais dos nossos usuários, incluindo a criptografia de dados e a implementação de medidas de segurança para prevenir o acesso não autorizado.
+            </p>
+            <h3>Direitos dos Usuários</h3>
+            <p>
+              Os nossos usuários têm o direito de acessar, corrigir e excluir as suas informações pessoais. Eles também têm o direito de se opor ao uso das suas informações para fins de marketing e publicidade.
+            </p>
+            <h3>Alterações à Política de Privacidade</h3>
+            <p>
+              Podemos alterar esta política de privacidade a qualquer momento. Se fizermos alterações significativas, notificaremos os nossos usuários por e-mail ou por meio de um aviso no nosso site ou aplicativo.
+            </p>
+          </div>
         </div>
     </div>
 
@@ -198,16 +228,7 @@
     </div>
     
 </body>
-<script>
-  // Função para ajustar o zoom para 80%
-  function setZoom() {
-    document.body.style.zoom = 1.0;
-  }
-  // Ajusta o zoom ao carregar a página
-  window.addEventListener("load", setZoom);
-  // Ajusta o zoom ao redimensionar a janela
-  window.addEventListener("resize", setZoom);
-</script>
+
 <!-- Scripts relacionados com Events -->
   <script>
   // Abertura de 'Ler Mais'

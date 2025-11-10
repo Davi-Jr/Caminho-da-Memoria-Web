@@ -422,7 +422,7 @@
   font-weight: 800;
   font-style: italic;
   position: absolute;
-  left: 409px;
+  left: 209px;
   top: 78%;
   width: 956px;
   height: 238px;
@@ -432,12 +432,13 @@
   padding: 60px 5%; /* Alterado de 170px para 5% para responsividade */
   display: flex;
   flex-direction: row;
-  gap: 80px;
+  gap: 50px;
   align-items: center;
   justify-content: center;
   position: relative; /* Alterado de absolute para relative */
   overflow: hidden;
   top: 260px; /* Ajuste a posição conforme necessário */
+  left: -3%; /* Ajuste a posição conforme necessário */
 }
 .container {
   display: flex;
@@ -474,12 +475,30 @@
   display: flex;
   flex-direction: column;
   gap: 12px;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
+  background: black;
+  color: white;
+  border: none;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 10px 20px;
+  transition: background-color 0.3s, transform 0.3s, border-radius 0.3s;
+  cursor: pointer;
+  border-radius: 4px; /* borda normal */
+  width: 50%;
 }
+
+.button:hover {
+  border-radius: 15px; /* 👈 deixa mais arredondado no hover */
+  transform: scale(1.03); /* leve aumento visual */
+}
+
+
 .primary {
   background: #000000;
   border-radius: 8px;
@@ -493,6 +512,11 @@
   width: 240px;
   position: relative;
 }
+.primary:hover {
+  background-color: #000000; /* Cor de fundo ao passar o mouse */
+  transform: scale(1.05); /* Aumenta o tamanho do botão em 5% */
+}
+
 .title4 {
   color: #ffffff;
   text-align: left;
@@ -612,7 +636,7 @@
   width: 1440px;
   height: 303px;
   position: absolute;
-  left: 160px;
+  left: -50px;
   top: 960px;
   overflow: hidden;
 }
@@ -782,7 +806,6 @@ body, html {
   transform: translateX(-50%); /* Ajusta o posicionamento central */
   bottom: -410px; /* Posiciona acima do footer (ajuste conforme altura do footer) */
   width: 448px;
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -810,7 +833,6 @@ body, html {
   transform: translateX(-50%); /* Ajusta o posicionamento central */
   bottom: -410px; /* Posiciona acima do footer (ajuste conforme altura do footer) */
   width: 448px;
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -828,7 +850,6 @@ body, html {
   transform: translateX(-50%); /* Ajusta o posicionamento central */
   bottom: -410px; /* Posiciona acima do footer (ajuste conforme altura do footer) */
   width: 448px;
-  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
