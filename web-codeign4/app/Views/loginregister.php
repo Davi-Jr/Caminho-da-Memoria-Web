@@ -47,7 +47,7 @@
     <img class="section2" src="<?= base_url('vectors/vector-2000.svg') ?>" />
     <div class="section3">
       <div class="container2">
-        <div class="title4">Copyright © 2024 Caminho da Memória</div>
+        <div class="title4">2025 Caminho da Memória</div>
         <!-- Link Política de Privacidade -->
         <div class="title5">
           <a href="#" onclick="openModalPoliticaPrivacidade(event)">Política de Privacidade</a>
@@ -195,7 +195,7 @@
           </div>
         </div>
         <div class="button2">
-          <button type="button" class="primary2 title10" id="register-button">Registrar</button>
+          <button type="button" class="primary2" id="register-button">Registrar</button>
         </div>
       </div>
       <img class="vector-2003" src="<?= base_url('vectors/vector-2002.svg') ?>" />
@@ -218,7 +218,7 @@
   </div>
 </div>
 
-<script scr="../scripts/register.js"></script>
+<script src="<?= base_url('assets/js/register.js') ?>"></script>
 <script src="../scripts/script.js"></script>
 <script src="../scripts/login.js"></script>
 

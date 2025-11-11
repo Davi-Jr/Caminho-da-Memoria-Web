@@ -140,7 +140,7 @@ body {
   width: 1100px;
   height: 144px;
   position: absolute;
-  left: 15%;
+  left: 5%;
   top: 60px;
 }
 .title2 {
@@ -214,7 +214,7 @@ body {
   position: absolute;
   left: 46%;
   top: 76%;
-  overflow: hidden;
+  z-index: 10;
 }
 .tab5 {
   background: rgba(188, 196, 220, 0.5);
@@ -267,14 +267,14 @@ body {
   
 }
 .container2 {
-  display: flex;
+display: flex;
   flex-direction: row;
-  gap: 120px;
+  gap: 170px;
   align-items: center;
   justify-content: center;
   height: 100px;
   position: absolute;
-  left: 670px;
+  left: 400px;
   top: 89%;
 }
 .title4 {
@@ -378,7 +378,7 @@ body {
 .list {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   align-items: flex-start;
   justify-content: center;
   flex: 1;
@@ -585,7 +585,6 @@ body {
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
-  overflow: hidden;
 }
 .seconday {
   border-radius: 8px;
@@ -594,6 +593,7 @@ body {
   border-width: 1px;
   padding: 12px;
   display: flex;
+  cursor: pointer;
   flex-direction: column;
   gap: 0px;
   align-items: center;
@@ -601,6 +601,12 @@ body {
   flex-shrink: 0;
   width: 240px;
   position: relative;
+  /* Suaviza qualquer transformação */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.seconday:hover {
+  transform: scale(1.05); /* 1.05 = aumenta 5% */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* opcional, dá profundidade */
 }
 .title9 {
   color: #000000;
@@ -615,14 +621,21 @@ body {
   background: #000000;
   border-radius: 8px;
   padding: 12px;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 0px;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 240px;
+  width: 260px;
   position: relative;
+  /* Suaviza qualquer transformação */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.primary:hover {
+  transform: scale(1.05); /* 1.05 = aumenta 5% */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* opcional, dá profundidade */
 }
 .title10 {
   color: #ffffff;
@@ -645,7 +658,7 @@ body {
 
 /* Formulário Base */
 .form2 {
-  padding: 60px 170px;
+  padding: 90px 170px;
   display: flex;
   flex-direction: row;
   gap: 60px;
@@ -654,15 +667,14 @@ body {
   width: 80%;  /* Tornando o formulário responsivo */
   max-width: 1440px;  /* Limita a largura máxima */
   position: absolute;
-  left: 10%;  /* Alinha ao lado esquerdo da tela */
-  top: 36%;   /* Alinha ao topo para ficar na mesma posição do formulário de login */
+  top: 56%;   /* Alinha ao topo para ficar na mesma posição do formulário de login */
   overflow: hidden;
 }
 
 /* Inicialmente, o formulário de login está visível e o de registro escondido */
 #form-login {
   display: flex; /* Formulário de login visível por padrão */
-  top: 35%;
+  top: 45%;
   left: 300px;
 }
 
@@ -694,23 +706,34 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
+  transition: background-color 0.3s, transform 0.3s, border-radius 0.3s;
 }
 
 .primary2 {
-  background-color: #000000; /* Cor de fundo do botão */
+  background-color: #000000;
   border-radius: 15px;
   padding: 12px;
-  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  cursor: pointer;
   text-align: center;
-  color: #ffffff; /* Cor do texto */
+  color: #ffffff;
   font-family: "Merriweather", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-  text-decoration: none; /* Remove o sublinhado */
-  width: 500px;
+  text-decoration: none;
+  width: 510px;
   left: 2%;
+
+  /* Suaviza qualquer transformação */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+/* Quando o mouse passa por cima */
+.primary2:hover {
+  transform: scale(1.05); /* 1.05 = aumenta 5% */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* opcional, dá profundidade */
+}
+
 #loading-icon {
   position: absolute;
   right: 10px;

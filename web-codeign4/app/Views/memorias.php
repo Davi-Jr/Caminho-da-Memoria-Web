@@ -37,7 +37,7 @@
     <div class="section2">
       <img
         class="download-premium-png-of-account-png-line-icon-user-symbol-by-aew-about-profile-icon-person-icon-png-person-icon-profile-png-and-profile-3012376-1"
-        src="<?= base_url('assets/img/perfil.png') ?>"
+        src="<?= base_url('assets/img/perfil.webp') ?>"
       />
       
       <div class="container2">

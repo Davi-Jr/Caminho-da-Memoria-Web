@@ -494,8 +494,8 @@
 }
 
 .button:hover {
-  border-radius: 15px; /* 👈 deixa mais arredondado no hover */
-  transform: scale(1.03); /* leve aumento visual */
+  transform: scale(1.05); /* 1.05 = aumenta 5% */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* opcional, dá profundidade */
 }
 
 

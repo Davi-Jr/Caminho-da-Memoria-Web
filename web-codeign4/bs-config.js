@@ -1,13 +1,15 @@
 const browserSync = require('browser-sync').create();
 
 browserSync.init({
-  proxy: "localhost:8080", // Porta do spark serve
+  proxy: "localhost:8080",
   files: [
-    "**/*.php",          // 👈 observa qualquer mudança em arquivos PHP
-    "app/**/*.php",      // 👈 observa também dentro da pasta app
+    "**/*.php",
+    "app/**/*.php",
     "public/**/*.css",
-    "public/**/*.js"
+    "public/**/*.js",
+    "public/**/*.webp" // 👈 adiciona suporte a imagens .webp
   ],
+  serveStatic: ["public"], // 👈 serve arquivos estáticos locais
   injectChanges: true,
   open: true,
   notify: false,
