@@ -30,9 +30,9 @@
     <img class="logoo-removebg-preview-3" src="<?= base_url('assets/img/logoo-removebg-preview-30.png') ?>" />
     <div class="section">
       <div class="container">
-        <div class="title2"id="texto">Bem-vindo ao Gerenciamento de Usuário</div>
+        <div class="title2"id="texto">Bem-vindo ao Gerenciamento de Usuários</div>
         <div class="description">
-          Administre cuidadores e familiares de forma eficiente no sistema.
+          Administre pacientes de forma eficiente em nosso sistema.
         </div>
       </div>
       <img class="vector-200" src="<?= base_url('vectors/vector-2000.svg') ?>" />
@@ -232,9 +232,72 @@
     </div>
   </div>
 </body>
-  <!--- Script para 'Digitação e troca de palavras'. Verifique o código para mais entendimento--> 
-    <script src="../scripts/script.js"></script>
+<script>
+  // Versão simplificada e otimizada da animação de texto
+  function mudarTexto() {
+      const elementoTexto = document.getElementById('texto');
+      if (!elementoTexto) return;
 
+      const palavraAntiga = "Usuários";
+      const palavrasNovas = ["Pacientes", "Internados"];
+      const textoBase = "Bem-vindo ao Gerenciamento de ";
+      let palavraIndex = 0;
+
+      function animarTexto(palavraAtual, palavraNova, callback) {
+          // Fase 1: Apagar palavra atual
+          let index = palavraAtual.length;
+          
+          function apagar() {
+              if (index >= 0) {
+                  elementoTexto.textContent = textoBase + palavraAtual.substring(0, index);
+                  index--;
+                  setTimeout(apagar, 100);
+              } else {
+                  // Fase 2: Digitar nova palavra
+                  let novoIndex = 0;
+                  function digitar() {
+                      if (novoIndex <= palavraNova.length) {
+                          elementoTexto.textContent = textoBase + palavraNova.substring(0, novoIndex);
+                          novoIndex++;
+                          setTimeout(digitar, 100);
+                      } else {
+                          setTimeout(callback, 2000);
+                      }
+                  }
+                  setTimeout(digitar, 500);
+              }
+          }
+          apagar();
+      }
+
+      function cicloAnimacao() {
+          const palavraAtual = palavraIndex === 0 ? palavraAntiga : palavrasNovas[palavraIndex - 1];
+          const proximaPalavra = palavrasNovas[palavraIndex];
+          
+          animarTexto(palavraAtual, proximaPalavra, () => {
+              palavraIndex = (palavraIndex + 1) % palavrasNovas.length;
+              
+              // Se completou o ciclo, voltar para "Usuário"
+              if (palavraIndex === 0) {
+                  setTimeout(() => {
+                      animarTexto(palavrasNovas[palavrasNovas.length - 1], palavraAntiga, () => {
+                          // Reiniciar o ciclo após 5 segundos
+                          setTimeout(cicloAnimacao, 5000);
+                      });
+                  }, 1000);
+              } else {
+                  cicloAnimacao();
+              }
+          });
+      }
+
+      // Iniciar a primeira animação após 5 segundos
+      setTimeout(cicloAnimacao, 5000);
+  }
+
+  // Iniciar quando a página carregar
+  document.addEventListener('DOMContentLoaded', mudarTexto);
+</script>
     <!--- Script para rolagem suave para a seção de 'Adicionar Usuário' -->
     <script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

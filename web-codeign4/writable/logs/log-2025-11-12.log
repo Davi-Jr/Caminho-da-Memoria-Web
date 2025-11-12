@@ -1,0 +1,123 @@
+CRITICAL - 2025-11-12 16:53:38 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 222.
+ 1 APPPATH\Views\loginregister.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 16:53:41 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 222.
+ 1 APPPATH\Views\loginregister.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 16:53:47 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 222.
+ 1 APPPATH\Views\loginregister.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 16:54:13 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 222.
+ 1 APPPATH\Views\loginregister.php(222): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 222)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 17:00:05 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 174.
+ 1 APPPATH\Views\loginregister.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 174)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 17:00:27 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 174.
+ 1 APPPATH\Views\loginregister.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 174)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 17:00:29 --> ErrorException: Undefined variable $base_url
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 174.
+ 1 APPPATH\Views\loginregister.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $base_url', 'C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php', 174)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\app\\Views\\loginregister.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 5 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
+CRITICAL - 2025-11-12 17:04:27 --> ErrorException: Cannot redeclare base_url() (previously declared in C:\Pessoais\Caminho-da-Memoria-Web\web-codeign4\system\Helpers\url_helper.php:53)
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-11-12 17:58:59 --> Error: Undefined constant "loginregister"
+[Method: GET, Route: loginregister]
+in APPPATH\Views\loginregister.php on line 84.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('loginregister', [], true)
+ 4 APPPATH\Controllers\IndexController.php(27): view('loginregister')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\IndexController->loginregister()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IndexController))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\Pessoais\\Caminho-da-Memoria-Web\\web-codeign4\\public\\index.php')
